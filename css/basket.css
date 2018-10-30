@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #000000;
+  background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+
+}
+
+/* Style the header */
+.header {
+  background-color: #000000;
+  background-image: url("https://www.transparenttextures.com/patterns/shattered.png");
+    padding: 20px;
+    text-align: center;
+    color: #F0FFFF;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+        width: 100%;
+    }
+}
+
+
+
+.rightcol{
+  width: 60%;
+  background: black; /* Цвет фона */
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  opacity: 0.6; /* Значение прозрачности */
+  font: 14px Helvetica;
+  border-radius: 10px;
+	padding: 30px;
+	color:white;
+	margin-top:10px;
+  margin-right: 85px;
+	height:500px;
+  float:right;
+  position: relative;
+}
+
+.zakaz{
+  width: 20%;
+  margin-left:  50px;
+  background: black; /* Цвет фона */
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  opacity: 0.9; /* Значение прозрачности */
+  font: 15px Helvetica;
+  border-radius: 10px;
+  padding: 30px;
+  margin-top:10px;
+  height:500px;
+  text-align: center;
+  color: white;
+}
+
+.images{
+	position: absolute;
+	left:calc(50% - 570px);
+}
+
+div.gallery {
+    margin: 5px;
+    margin-left: 10px;
+    float: left;
+    width: 180px;
+}
+
+
+
+div.gallery img {
+    width: 100%;
+    height: 200px;
+}
+/* Style the footer */
+.footer {
+    color: #C0C0C0;
+    padding: 10px;
+    text-align: center;
+}
+
+.copyright{
+  color: white;
+}
+p{
+	font-size:20px;
+}
