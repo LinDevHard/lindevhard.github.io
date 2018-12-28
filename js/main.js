@@ -157,6 +157,6 @@ var ERRLOCS = {
 	}
 
 var VKID = 0;
-var BASE_URL = "http://cors.io/?http://univerbot.000webhostapp.com";
+var BASE_URL = "//univerbot.000webhostapp.com";
 
 window.onload = init;
