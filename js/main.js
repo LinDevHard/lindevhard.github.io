@@ -2,7 +2,7 @@ function init() {
 	if(!validateURI()) {
 		g_show_error("",ERRLOCS[3]);
 	}
-	$('#login-button')[0].onclick = function() {
+		$('#login-button')[0].onclick = function() {
 		$('#login-button')[0].disabled = true;
 		$('#login-button')[0].textContent = "Loading";
 		gsend();
@@ -157,6 +157,6 @@ var ERRLOCS = {
 	}
 
 var VKID = 0;
-var BASE_URL = "http://localhost";
+var BASE_URL = "http://univerbot.000webhostapp.com";
 
 window.onload = init;
